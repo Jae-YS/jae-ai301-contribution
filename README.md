@@ -1,15 +1,16 @@
-# Contribution [#]: [Issue Title]
+# Contribution [780]: Migrate telemetry/ui from Create React App to Vite
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+
+**Contribution Number: 780
+**Student:** Jae
+**Issue:** (https://github.com/apache/burr/issues/780)
+**Status:** Phase I
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I selected this issue because optimizing the user interface architecture provides an immediate, high-impact improvement. Leveraging my skills in web development allows me to quickly navigate the project's code and speed up the onboarding process. This way, I can quickly try to contribute on more AI focused issues later.
 
 ---
 
@@ -17,7 +18,7 @@
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+Current project is utilizing Create React App (CRA) for its build, which is deprecated and no longer maintained. This results in slower build speeds, and outdated dependency management. As a result, we want to migrate to Vite to stay with modern web standards and creating optimizied production asset builds.
 
 ### Expected Behavior
 
